@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FreeSearch</title>
+      <style> body {padding: 0; margin: 0;}
+          h1{ font-family: "Arial Black", Gadget, sans-serif; 
+              letter-spacing: 2px;
+              margin-top:40px; 
+              margin-left: 50vw;
+              
+          }
+         
+          h2{
+             position: absolute; top:30vh; right: 70vw; left: 50px;
+              
+            font-family: "Arial Black", Gadget, sans-serif;
+              
+          }
+          h3{
+              position: absolute; bottom:5vh; right: 70vw; left: 50px;
+              
+            font-family: "Arial Black", Gadget, sans-serif; 
+          }
+          #upper{
+              min-width: 1500px;
+          }
+          #info{
+             position: absolute; top:40vh; right: 70vw; left: 50px; 
+          }
+      
+      </style>
+      
+    <script src="FreeSearch/p5.min.js"></script>
+    <script src="FreeSearch/addons/p5.dom.min.js"></script>
+   <script src="FreeSearch/addons/p5.sound.min.js"></script>
+     
+    <script src="FreeSearch/web/FreeSearch.js"></script>
+      
+    
+      
+  </head>
+  <body>
+      <div id="upper">
+      <h1>FreeSearch</h1>
+     
+    <p>
+      <input id ="query" style="position: absolute; top:50px; left: 50px;"   />
+      <button style="position: absolute; top:50px; left: 216px;" id="search">search</button>
+    </p>
+      </div>
+      <h2>results</h2>
+      <div id="info">
+        
+        <p id="title" style="word-wrap: normal"></p>
+        <p id="description"></p>
+      </div>
+      <h3><a href="FreeSearch/web/info.html" style="color:black">about</a>
+      </h3>
+  </body>
+</html>
